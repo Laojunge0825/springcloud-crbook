@@ -1,0 +1,12 @@
+server:
+  port: 8001
+eureka:
+spring:
+  application:
+    name: crbook-eureka
+Eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
