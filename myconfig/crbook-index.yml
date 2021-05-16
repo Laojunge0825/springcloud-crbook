@@ -1,0 +1,6 @@
+server:
+  port: 8100
+Eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
