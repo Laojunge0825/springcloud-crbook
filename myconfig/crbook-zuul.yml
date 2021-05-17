@@ -1,0 +1,11 @@
+server:
+  port: 80
+Eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
+zuul:
+  routes:
+    default:
+      path: /**
+      serviceId: crbook-index
