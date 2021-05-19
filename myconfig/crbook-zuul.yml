@@ -9,3 +9,6 @@ zuul:
     default:
       path: /**
       serviceId: crbook-index
+    crbook-book:
+      path: /book/**
+      serviceId: crbook-book
