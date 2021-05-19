@@ -11,4 +11,8 @@ zuul:
       serviceId: crbook-index
     crbook-book:
       path: /book/**
-      serviceId: crbook-book
+    crbook-index:
+      path: /index/**
+    crbook-user:
+      path: /user/**
+  sensitive-headers:
