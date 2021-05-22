@@ -1,0 +1,13 @@
+server:
+  port: 8200
+Eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka
+spring:
+  profiles: crbook-user-u1
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crbook?serverTimezone=UTC
+    username: root
+    password: a
